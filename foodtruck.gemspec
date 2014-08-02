@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Jose Ventura"]
   s.date = "2014-08-02"
-  s.description = "Foodtruck servers all kinds of good food."
+  s.description = "Foodtruck serves all kinds of good food!"
   s.email = "hello@joventuraz.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "foodtruck.gemspec",
     "lib/foodtruck.rb",
     "test/helper.rb",
     "test/test_foodtruck.rb"
@@ -32,7 +33,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/joventuraz/foodtruck"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "Foodtruck serves all kinds of good food!"
+  s.summary = "All kinds of good food!"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
