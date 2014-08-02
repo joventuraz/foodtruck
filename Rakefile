@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "foodtruck"
   gem.homepage = "http://github.com/joventuraz/foodtruck"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{All kinds of good food!}
+  gem.description = %Q{Foodtruck serves all kinds of good food!}
   gem.email = "hello@joventuraz.com"
   gem.authors = ["Jose Ventura"]
   # dependencies defined in Gemfile
