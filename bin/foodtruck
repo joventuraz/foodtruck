@@ -5,4 +5,4 @@ $LOAD_PATH.unshift(File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib
 
 require 'foodtruck/foodtruck'
 
-Foodtruck.init
+Foodtruck.init()
