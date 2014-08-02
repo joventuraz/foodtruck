@@ -5,62 +5,57 @@
 # stub: foodtruck 0.1.1 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "foodtruck"
-  s.version = "0.1.1"
+  s.name = 'foodtruck'
+  s.version = '0.1.1'
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.require_paths = ["lib"]
-  s.authors = ["Jose Ventura"]
-  s.date = "2014-08-02"
-  s.description = "Foodtruck serves all kinds of good food!"
-  s.email = "hello@joventuraz.com"
+  if s.respond_to? :required_rubygems_version=
+    s.required_rubygems_version = Gem::Requirement.new('>= 0')
+  end
+  s.require_paths = ['lib']
+  s.authors = ['Jose Ventura']
+  s.date = '2014-08-02'
+  s.description = 'Foodtruck serves all kinds of good food!'
+  s.email = 'hello@joventuraz.com'
   s.extra_rdoc_files = [
-    "LICENSE.txt",
-    "README.rdoc"
+    'LICENSE.txt',
+    'README.rdoc'
   ]
   s.files = [
-    ".document",
-    ".travis.yml",
-    "Gemfile",
-    "LICENSE.txt",
-    "README.rdoc",
-    "Rakefile",
-    "VERSION",
-    "foodtruck.gemspec",
-    "lib/foodtruck.rb",
-    "test/helper.rb",
-    "test/test_foodtruck.rb"
+    '.document',
+    '.travis.yml',
+    'Gemfile',
+    'LICENSE.txt',
+    'README.rdoc',
+    'Rakefile',
+    'VERSION',
+    'foodtruck.gemspec',
+    'lib/foodtruck.rb',
+    'test/helper.rb',
+    'test/test_foodtruck.rb'
   ]
-  s.homepage = "http://github.com/joventuraz/foodtruck"
-  s.licenses = ["MIT"]
-  s.rubygems_version = "2.2.2"
-  s.summary = "All kinds of good food!"
+  s.homepage = 'http://github.com/joventuraz/foodtruck'
+  s.licenses = ['MIT']
+  s.rubygems_version = '2.2.2'
+  s.summary = 'All kinds of good food!'
 
-  if s.respond_to? :specification_version then
+  if s.respond_to? :specification_version
     s.specification_version = 4
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<shoulda>, [">= 0"])
-      s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 2.0.1"])
-      s.add_development_dependency(%q<simplecov>, [">= 0"])
-      s.add_development_dependency(%q<rubocop>, [">= 0"])
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0')
+      s.add_development_dependency('rdoc', ['~> 3.12'])
+      s.add_development_dependency('bundler', ['~> 1.0'])
+      s.add_development_dependency('jeweler', ['~> 2.0.1'])
+      s.add_development_dependency('rubocop', ['>= 0'])
     else
-      s.add_dependency(%q<shoulda>, [">= 0"])
-      s.add_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_dependency(%q<bundler>, ["~> 1.0"])
-      s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
-      s.add_dependency(%q<simplecov>, [">= 0"])
-      s.add_dependency(%q<rubocop>, [">= 0"])
+      s.add_dependency('rdoc', ['~> 3.12'])
+      s.add_dependency('bundler', ['~> 1.0'])
+      s.add_dependency('jeweler', ['~> 2.0.1'])
+      s.add_dependency('rubocop', ['>= 0'])
     end
   else
-    s.add_dependency(%q<shoulda>, [">= 0"])
-    s.add_dependency(%q<rdoc>, ["~> 3.12"])
-    s.add_dependency(%q<bundler>, ["~> 1.0"])
-    s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
-    s.add_dependency(%q<simplecov>, [">= 0"])
-    s.add_dependency(%q<rubocop>, [">= 0"])
+    s.add_dependency('rdoc', ['~> 3.12'])
+    s.add_dependency('bundler', ['~> 1.0'])
+    s.add_dependency('jeweler', ['~> 2.0.1'])
+    s.add_dependency('rubocop', ['>= 0'])
   end
 end
-

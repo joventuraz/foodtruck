@@ -6,21 +6,22 @@ begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
   $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
+  $stderr.puts 'Run `bundle install` to install missing gems'
   exit e.status_code
 end
 require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "foodtruck"
-  gem.homepage = "http://github.com/joventuraz/foodtruck"
-  gem.license = "MIT"
-  gem.summary = %Q{All kinds of good food!}
-  gem.description = %Q{Foodtruck serves all kinds of good food!}
-  gem.email = "hello@joventuraz.com"
-  gem.authors = ["Jose Ventura"]
+  # gem is a Gem::Specification...
+  # see http://guides.rubygems.org/specification-reference/ for more options
+  gem.name = 'foodtruck'
+  gem.homepage = 'http://github.com/joventuraz/foodtruck'
+  gem.license = 'MIT'
+  gem.summary = 'All kinds of good food!'
+  gem.description = 'Foodtruck serves all kinds of good food!'
+  gem.email = 'hello@joventuraz.com'
+  gem.authors = ['Jose Ventura']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -32,17 +33,17 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
-desc "Code coverage detail"
+desc 'Code coverage detail'
 task :simplecov do
-  ENV['COVERAGE'] = "true"
+  ENV['COVERAGE'] = 'true'
   Rake::Task['test'].execute
 end
 
-task :default => :test
+task default: :test
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+  version = File.exist?('VERSION') ? File.read('VERSION') : ''
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "foodtruck #{version}"
