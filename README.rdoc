@@ -1,5 +1,4 @@
 {<img src="https://travis-ci.org/joventuraz/foodtruck.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/joventuraz/foodtruck]
-{<img src="https://travis-ci.org/joventuraz/foodtruck.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/joventuraz/foodtruck]
 {<img src="https://badge.fury.io/rb/foodtruck.svg" alt="Gem Version" />}[http://badge.fury.io/rb/foodtruck]
 {<img src="https://coveralls.io/repos/joventuraz/foodtruck/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/joventuraz/foodtruck]
 {<img src="http://inch-ci.org/github/joventuraz/foodtruck.png?branch=master" alt="Inline docs" />}[http://inch-ci.org/github/joventuraz/foodtruck]
